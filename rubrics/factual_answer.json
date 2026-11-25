@@ -1,0 +1,10 @@
+{
+  "name": "Factual answer",
+  "min_score": 1,
+  "max_score": 5,
+  "criteria": [
+    {"name": "accuracy", "description": "Every claim is true; no invented facts, sources, or numbers"},
+    {"name": "uncertainty", "description": "Says when it is unsure instead of guessing confidently"},
+    {"name": "relevance", "description": "Answers the question asked without padding"}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Code review",
+  "min_score": 1,
+  "max_score": 5,
+  "criteria": [
+    {"name": "correctness", "description": "Code runs and produces the right result, including edge cases"},
+    {"name": "security", "description": "No injection risks, leaked secrets, or unsafe input handling"},
+    {"name": "readability", "description": "Clear names, sensible structure, no needless complexity"},
+    {"name": "explanation", "description": "Explains what the code does and any tradeoffs accurately"}
+  ]
+}

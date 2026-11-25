@@ -1,0 +1,22 @@
+# Secrets
+.env
+
+# Your comparison results (remove this line if you want to publish them)
+results/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Tools
+.pytest_cache/
+.ruff_cache/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
